@@ -1,11 +1,9 @@
 #coding=utf-8
 import re
 
-Regex = re.compile(r'abc(\d{3})(\s{3})')
-'''
-空格ascii码32，看着转义吧，不行就直接上 
-r"adhajkdhaabc123   fabcdaf"
-'''
-res = Regex.search("adhajkdhaabc123\x20\x20\x20fabcdaf")
-print res.group(2)
-
+str = 'Agent Alice told Agent Carol that Agent \
+Eve knew Agent Bob was a double agent.'
+Regex = re.compile(r'Agent (\w)\w*')
+print Regex.findall(str)
+res = Regex.sub(r'\1****', str)
+print res
