@@ -1,4 +1,3 @@
-#coding=utf-8
 import re
 
 str = 'Agent Alice told Agent Carol that Agent \

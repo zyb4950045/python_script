@@ -1,4 +1,6 @@
 import re
+
+
 def strip(source, char=None):
     if None == char:
         reg = re.compile(r'^ *| *$')
@@ -10,6 +12,7 @@ def strip(source, char=None):
     print(r'^[char]*|[char]*$')
     print(reg.findall(source))
     return reg.sub('', source)
+
 
 if __name__ == '__main__':
     input = "*****aadad*******adada********"

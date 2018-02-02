@@ -1,4 +1,3 @@
-#coding=utf-8
 import re
 
 Regex = re.compile(r'abc(\d{3})(\s{3})')
