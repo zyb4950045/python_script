@@ -1,6 +1,7 @@
 import os
 path = os.getcwd()
 file = open(path + '/' + 'test.py')
-content = file.read()
-print(content)
-file.close
+list = file.readlines()
+for content in list:
+    print(content, end='')
+file.close()
