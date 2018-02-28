@@ -1,8 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import re
-import os
-import time
 
 #请求头字典
 req_header={
@@ -17,35 +14,6 @@ req_header={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.104 Safari/537.36'
 }
 
-#小说主地址
-req_url_base='http://www.qu.la/book/'
-#单独一本小说地址
-req_url=req_url_base+"1/"
-#某一章页面地址
-txt_section='260824.html'
-
-#请求当前章节页面  params为请求参数
-r=requests.get(req_url+str(txt_section),params=req_header)
-#soup转换
-soup=BeautifulSoup(r.text, "html.parser")
-#获取章节名称
-section_name=soup.select('#wrapper .content_read .box_con .bookname h1')[0]
-#获取章节文本
-section_text=soup.select('#wrapper .content_read .box_con #content')[0]
-#删除无用项
-for ss in section_text.select("script"):
-    ss.decompose()
-
-#按照指定格式替换章节内容，运用正则表达式
-section_text = re.sub( '\s+', '\r\n\t', section_text.text).strip('\r\n')
-
-title = section_name.string
-print('章节名:' + title)
-print("章节内容：\n" + section_text)
-
-file = open('out.txt', "ab+")         #打开小说文件
-# 以二进制写入章节题目 需要转换为utf-8编码，否则会出现乱码
-file.write(('\r' + title + '\r\n').encode('UTF-8'))
-# 以二进制写入章节内容
-file.write((section_text).encode('UTF-8'))
-file.close()        #关闭小说文件
+page = requests.get("accounts.douban.com/login", headers=req_header)
+content = BeautifulSoup(page, "lxml")
+print(content.text)
