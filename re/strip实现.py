@@ -1,6 +1,5 @@
 import re
 
-
 def strip(source, char=None):
     if None == char:
         reg = re.compile(r'^ *| *$')
