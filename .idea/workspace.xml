@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daf6b9a5-0d37-4764-af2b-1e2d4a958d29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mysql/在薪资表随机插入100个薪资在100之内的数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/插入10个用户.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/查询id为1的用户的name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/给b表插入1000万数据.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/读取当前文件夹下test.py文件内容.py" beforeDir="false" afterPath="$PROJECT_DIR$/file/读取当前文件夹下test.py文件内容.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/re/strip实现.py" beforeDir="false" afterPath="$PROJECT_DIR$/re/strip实现.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/给a表插入10个用户.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/给a表插入10个用户.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +16,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_script$id1name.coverage" NAME="查询id为1的用户的name Coverage Results" MODIFIED="1525523123690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/python_script$10.coverage" NAME="插入10个用户 Coverage Results" MODIFIED="1525524099341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/python_script$b1000salary.coverage" NAME="给b表设置1000个salary Coverage Results" MODIFIED="1525590042142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/python_script$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1517823461073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file" />
+    <SUITE FILE_PATH="coverage/python_script$b100uid.coverage" NAME="给b表插入100个uid Coverage Results" MODIFIED="1525589916152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/python_script$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1519804450894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
     <SUITE FILE_PATH="coverage/python_script$connectorTest.coverage" NAME="connectorTest Coverage Results" MODIFIED="1525521593561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/python_script$.coverage" NAME="获取指定目录文件名和大小 Coverage Results" MODIFIED="1517551769690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file" />
@@ -31,29 +30,15 @@
     <SUITE FILE_PATH="coverage/python_script$test.coverage" NAME="test Coverage Results" MODIFIED="1525521529595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/python_script$mysql.coverage" NAME="连接mysql Coverage Results" MODIFIED="1519804037394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
     <SUITE FILE_PATH="coverage/python_script$strip.coverage" NAME="strip实现 Coverage Results" MODIFIED="1519804598543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re" />
+    <SUITE FILE_PATH="coverage/python_script$b1000uid.coverage" NAME="给b表插入1000个uid Coverage Results" MODIFIED="1526997025011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="在薪资表随机插入100个薪资在100之内的数.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/在薪资表随机插入100个薪资在100之内的数.py">
+    <leaf>
+      <file leaf-file-name="给b表插入1000万数据.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysql/给b表插入1000万数据.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" column="12" lean-forward="true" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="插入10个用户.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysql/插入10个用户.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -114,6 +99,11 @@
         <option value="$PROJECT_DIR$/mysql/pymysqlTest.py" />
         <option value="$PROJECT_DIR$/mysql/在薪资表随机插入100个薪资在100之内的数.py" />
         <option value="$PROJECT_DIR$/mysql/插入10个用户.py" />
+        <option value="$PROJECT_DIR$/mysql/给b表插入100个uid.py" />
+        <option value="$PROJECT_DIR$/mysql/给b表设置1000个salary.py" />
+        <option value="$PROJECT_DIR$/mysql/给b表插入1000个uid.py" />
+        <option value="$PROJECT_DIR$/mysql/给b表插入1000万数据.py" />
+        <option value="$PROJECT_DIR$/mysql/给a表插入10个用户.py" />
       </list>
     </option>
   </component>
@@ -127,10 +117,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1043" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -179,21 +169,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/tool/python/Lib/random.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\git\python_script\re" />
+      <recent name="D:\Code\git\python_script\script" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\git\python_script\mysql" />
       <recent name="D:\Code\git\python_script\web" />
       <recent name="D:\Code\git\python_script\script" />
       <recent name="D:\Code\git\python_script\file" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\git\python_script\re" />
-      <recent name="D:\Code\git\python_script\script" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -208,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.插入10个用户">
+  <component name="RunManager" selected="Python.给b表插入1000个uid">
     <configuration name="插入10个用户" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_script" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,7 +219,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="connectorTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="给b表设置1000个salary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_script" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,7 +232,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\code\git\python_script\mysql\查询id为1的用户的name.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql/给b表设置1000个salary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="给b表插入1000个uid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\code\git\python_script\mysql\给b表插入1000万数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="给b表插入100个uid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\code\git\python_script\mysql\给b表插入1000万数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,58 +295,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pymysqlTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_script" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\code\git\python_script\mysql\在薪资表随机插入100个薪资在100之内的数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_script" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\code\git\python_script\mysql\查询id为1的用户的name.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.connectorTest" />
-      <item itemvalue="Python.pymysqlTest" />
       <item itemvalue="Python.查询id为1的用户的name" />
       <item itemvalue="Python.插入10个用户" />
+      <item itemvalue="Python.给b表插入100个uid" />
+      <item itemvalue="Python.给b表设置1000个salary" />
+      <item itemvalue="Python.给b表插入1000个uid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.给b表插入1000个uid" />
+        <item itemvalue="Python.给b表设置1000个salary" />
+        <item itemvalue="Python.给b表插入100个uid" />
         <item itemvalue="Python.插入10个用户" />
         <item itemvalue="Python.查询id为1的用户的name" />
-        <item itemvalue="Python.pymysqlTest" />
-        <item itemvalue="Python.connectorTest" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -430,56 +421,63 @@
       <option name="project" value="LOCAL" />
       <updated>1519804672003</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加mysql查询和批量插入操作, pymysql代替mysql.connect">
+      <created>1525524175635</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1525524175635</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50907713" side_tool="true" weight="0.3287037" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.28779396" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.28651685" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.29962546" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.3857678" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49092284" weight="0.34602463" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33629748" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35327405" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32771537" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.375" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32771537" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35327405" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.28779396" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.28651685" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33629748" />
+      <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49394855" visible="true" weight="0.53370786" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.29962546" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32771537" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3281075" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.375" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49092284" weight="0.34602463" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50907713" side_tool="true" weight="0.3287037" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.375" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50907713" side_tool="true" weight="0.3287037" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -529,7 +527,8 @@
     <MESSAGE value="批量修改音乐和封面名称" />
     <MESSAGE value="获取小说一章" />
     <MESSAGE value="移除mysql相关操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除mysql相关操作" />
+    <MESSAGE value="添加mysql查询和批量插入操作, pymysql代替mysql.connect" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加mysql查询和批量插入操作, pymysql代替mysql.connect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,8 +570,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/script/连接mysql.py" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/mysql/给a表插入10个用户.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/给b表插入1000万数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/file/获取指定目录文件名和大小.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -581,20 +592,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/file/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/读取当前文件夹下test.py文件内容.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/re/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/script/查询中文路径下文件名.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1675726033/nt.py" />
@@ -656,9 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/re/带空格正则匹配.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/re/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -672,9 +671,6 @@
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/批量替换文件名.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/file/test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -690,9 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/out.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -704,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,21 +726,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql/在薪资表随机插入100个薪资在100之内的数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="12" lean-forward="true" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/插入10个用户.py">
+    <entry file="file://D:/tool/python/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="164">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1485799115/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3588" column="8" selection-start-line="3588" selection-start-column="8" selection-end-line="3588" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/给b表设置1000个salary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/给a表插入10个用户.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/给b表插入1000万数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
